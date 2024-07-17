@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend - User Registration</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signup_box">
+        <h1>SIGNUP</h1>
+        <form action="" name="validate" onsubmit="return validation()">
+            <div class="signup_inputs">
+                <div>
+                    <input type="text" placeholder="First Name" name="Fname">
+                    <input type="text" placeholder="Last Name" name="Lname">
+                </div>
+                <select name="Gender" id="gender">
+                    <option value="">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">others</option>
+                </select>
+                <input type="email" placeholder="Username or Email" name="Username">
+                <input type="password" placeholder="New password" name="Password">
+                <input type="password" placeholder="Confirm password" name="Password">
+                <input type="text" placeholder="Mobile number" name="Mobnum">
+                <button value="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <div class="slogan">
+        <h1>Unlock Your Potential with <span>ASCEND</span></h1>
+        <h2>Forge a <span>Stronger,</span> Balanced You</h2>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
